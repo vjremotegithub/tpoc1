@@ -9,7 +9,7 @@ terragrunt = {
       bucket         = "tpoc1-state-global-snd"
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
-      profile = "snd1-profile"
+      profile = "snd-profile"
       shared_credentials_file= "/home/vijay/.aws/credentials"
       dynamodb_table = "tpoc1-locks"
     }
