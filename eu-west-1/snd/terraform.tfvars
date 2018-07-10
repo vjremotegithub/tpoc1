@@ -7,7 +7,7 @@ terragrunt = {
     config {
       encrypt        = false
       bucket         = "tpoc1-state-global-snd"
-      key            = "dev/terraform.tfstate"
+      key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
 #    profile = "snd-profile"
       dynamodb_table = "tpoc1-locks"
