@@ -5,9 +5,9 @@ terragrunt = {
   remote_state {
     backend = "s3"
     config {
-      encrypt        = true
+      encrypt        = false
       bucket         = "tpoc1-state-global-snd"
-      key            = "terraform.tfstate"
+      key            = "dev/terraform.tfstate"
       region         = "eu-west-1"
       profile = "snd-profile"
       dynamodb_table = "tpoc1-locks"
@@ -25,12 +25,10 @@ terragrunt = {
       ]
     }
     
- aws_region = "eu-west-1"
-aws_profile = "snd-profile"
-shared_credentials_file= "/home/vijay/.aws/credentials" 
-    
   }
 }
 
-
+aws_region = "eu-west-1"
+aws_profile = "snd-profile"
+shared_credentials_file= "/home/vijay/.aws/credentials" 
 
