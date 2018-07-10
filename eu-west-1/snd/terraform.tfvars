@@ -9,13 +9,15 @@ terragrunt = {
       bucket         = "tpoc1-state-global-snd"
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
-      profile = "snd-profile"
+      profile = "snd1-profile"
       shared_credentials_file= "/home/vijay/.aws/credentials"
       dynamodb_table = "tpoc1-locks"
     }
   }
   
-  
+aws_region = "eu-west-1"
+aws_profile = "snd-profile"
+shared_credentials_file= "/home/vijay/.aws/credentials" 
 
   # Configure root level variables that all resources can inherit
   terraform {
