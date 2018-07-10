@@ -9,7 +9,7 @@ terragrunt = {
   # working directory, into a temporary folder, and execute your Terraform commands in that folder.
   terraform {
     #source = "git@github.com:vjremotegithub/tform.git//iam-user"
-    source="https://github.com/vjremotegithub/tform.git//iam-user"
+    source="https://github.com/vjremotegithub/tform.git"
   }
 
   # Include all settings from the root terraform.tfvars file
