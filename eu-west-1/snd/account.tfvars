@@ -4,5 +4,4 @@
 #tfstate_global_bucket        = "tpoc-state-global-snd"
 #tfstate_global_bucket_region = "eu-west-1"
 aws_region = "eu-west-1"
-shared_credentials_file= "/home/vijay/.aws/credentials"
 aws_profile                  = "snd-profile"
