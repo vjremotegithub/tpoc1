@@ -7,7 +7,7 @@ terragrunt = {
     config {
       encrypt        = true
       bucket         = "tpoc1-state-global-snd"
-      key            = "snd/terraform.tfstate"
+      key            = "terraform.tfstate"
       region         = "eu-west-1"
       profile = "snd-profile"
       shared_credentials_file= "/home/vijay/.aws/credentials"
