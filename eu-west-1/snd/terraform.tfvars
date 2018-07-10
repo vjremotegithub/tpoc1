@@ -28,7 +28,7 @@ terragrunt = {
   }
 }
 
-aws_region = "eu-west-1"
-aws_profile = "snd-profile"
-shared_credentials_file= "/home/vijay/.aws/credentials" 
+#aws_region = "eu-west-1"
+#aws_profile = "snd-profile"
+#shared_credentials_file= "/home/vijay/.aws/credentials" 
 
