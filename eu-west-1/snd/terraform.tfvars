@@ -9,7 +9,7 @@ terragrunt = {
       bucket         = "tpoc1-state-global-snd"
       key            = "dev/terraform.tfstate"
       region         = "eu-west-1"
-      profile = "snd-profile"
+#      profile = "snd-profile"
       dynamodb_table = "tpoc1-locks"
     }
   }
