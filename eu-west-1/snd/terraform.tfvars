@@ -23,7 +23,10 @@ terragrunt = {
         owner = "terragrunt integration test"
         name  = "Terraform lock table"
       }
-      
+  
+ aws_region = "eu-west-1"
+shared_credentials_file= "/home/vijay/.aws/credentials"
+aws_profile                  = "snd-profile"    
       
   # Configure root level variables that all resources can inherit
   terraform {
