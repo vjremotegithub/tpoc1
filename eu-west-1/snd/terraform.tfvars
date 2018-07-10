@@ -10,6 +10,7 @@ terragrunt = {
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
       profile = "snd-profile"
+      shared_credentials_file= "/home/vijay/.aws/credentials"
       dynamodb_table = "tpoc1-locks"
     }
   }
@@ -25,7 +26,7 @@ terragrunt = {
         name  = "Terraform lock table"
       }
   
- aws_region = "eu-west-1"
+aws_region = "eu-west-1"
 shared_credentials_file= "/home/vijay/.aws/credentials"
 aws_profile                  = "snd-profile"    
       
