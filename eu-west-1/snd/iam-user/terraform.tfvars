@@ -25,5 +25,6 @@ terragrunt = {
 # ---------------------------------------------------------------------------------------------------------------------
 
 name           = "TeraDevUser"
-
+shared_credentials_file= "/home/vijay/.aws/credentials"
+aws_profile                  = "snd-profile"
 
