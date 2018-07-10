@@ -12,17 +12,6 @@ terragrunt = {
       profile = "snd-profile"
       shared_credentials_file= "/home/vijay/.aws/credentials"
       dynamodb_table = "tpoc1-locks"
-  
-        s3_bucket_tags {
-        owner = "terragrunt integration test"
-        name  = "Terraform state storage"
-      }
-
-      dynamodb_table_tags {
-        owner = "terragrunt integration test"
-        name  = "Terraform lock table"
-      }
-  
     }
   }
   
