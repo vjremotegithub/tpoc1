@@ -5,7 +5,7 @@ terragrunt = {
   remote_state {
     backend = "s3"
     config {
-      encrypt        = false
+      encrypt        = true
       bucket         = "tpoc1-state-global-snd"
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
