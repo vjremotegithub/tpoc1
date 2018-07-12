@@ -5,4 +5,4 @@
 #tfstate_global_bucket_region = "eu-west-1"
 aws_region = "eu-west-1"
 aws_profile = "dev-profile"
-shared_credentials_file= "~/.aws/credentials" 
+credentials_file = "~/.aws/credentials" 
