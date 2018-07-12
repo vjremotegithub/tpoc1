@@ -9,8 +9,8 @@ terragrunt = {
       bucket         = "tpoc1-state-global-snd-${get_aws_account_id()}"
       key            = "dev/terraform.tfstate"
       region         = "eu-west-1"
-      profile        = "snd-profile"
-      dynamodb_table = "tpoc1-locks"
+      profile        = "dev-profile"
+      dynamodb_table = "tpoc1-locks-${get_aws_account_id()}"
     }
   }
   
