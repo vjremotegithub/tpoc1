@@ -6,3 +6,4 @@
 aws_region = "eu-west-1"
 aws_profile = "snd-profile"
 shared_credentials_file= "~/.aws/credentials" 
+
