@@ -10,7 +10,8 @@ terragrunt = {
       key            = "dev/terraform.tfstate"
       region         = "eu-west-1"
       #profile        = "dev-profile"
-      role_arn = " arn:aws:iam::410384406042:role/DevelopmentAdmin"
+     
+      role_arn = "arn:aws:iam::410384406042:role/DevelopmentAdmin"
       dynamodb_table = "tpoc1-locks-${get_aws_account_id()}"
     }
   }
