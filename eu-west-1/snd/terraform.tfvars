@@ -10,7 +10,7 @@ terragrunt = {
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
       profile        = "snd-profile"
-      dynamodb_table = "tpoc1-locks"
+      dynamodb_table = "tpoc1-locks-${get_aws_account_id()}"
     }
   }
   
