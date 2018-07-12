@@ -6,7 +6,7 @@ terragrunt = {
     backend = "s3"
     config {
       encrypt        = true
-      bucket         = "tpoc1-state-global-snd"
+      bucket         = "tpoc1-state-global-snd-${get_aws_account_id()"
       key            = "snd/terraform.tfstate"
       region         = "eu-west-1"
       profile = "snd-profile"
